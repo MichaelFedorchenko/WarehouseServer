@@ -1,7 +1,15 @@
-# Warehouse Server
+# Warehouse Standalone Server
 
-## Standalone Server for Application Warehouse v1.7
-Package to install: warehouse-server.deb
+
+<p>
+    Compatible to 
+    <a href="https://github.com/MichaelFedorchenko/warehouse/releases/tag/v1.7">
+        <img src="https://img.shields.io/badge/Warehouse%20Desktop%20Application-v1.7.1-orange" height=25>
+    </a>
+</p>
+
+
+> Package to install: warehouse-server.deb
 
 ### Application files:
 ```
