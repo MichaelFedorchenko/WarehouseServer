@@ -1,14 +1,14 @@
 # Warehouse Server
 
-## Standalone Service for Application Warehouse v1.7
+## Standalone Server for Application Warehouse v1.7
 Package to install: warehouse-server.deb
 
 ### Application files:
 ```
-/opt/warehouse/photos/          Derectory for photos
-/opt/warehouse/settings.json    Application Settings
-/opt/warehouse/warehouse.db     Database SQLite
-/opt/warehouse/waehouse-server  Main Server Application
+/opt/warehouse/photos/           Derectory for photos
+/opt/warehouse/settings.json     Application Settings
+/opt/warehouse/warehouse.db      Database (SQLite)
+/opt/warehouse/warehouse-server  Main Server Application
 ```
 
 ### Daemon
@@ -32,7 +32,7 @@ Package to install: warehouse-server.deb
 ### Describe of setings
 ```
 db_path       [string]    Current Database file
-show_content  [boolean]   Show Items-name on Container in GUI-App (Default: false)
+show_content  [boolean]   Show Items-name in Container for GUI-App (Default: false)
 photos_dir    [string]    Current Photos Directory
 language      [string]    Current Application Language (Default: "en")
   You can change language:
